@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'PinAuto_Example', :exclusive => true do
+  pod "PinAuto", :path => "../"
+end
+
+target 'PinAuto_Tests', :exclusive => true do
+  pod "PinAuto", :path => "../"
+
+  
+end
