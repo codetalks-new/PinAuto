@@ -20,12 +20,11 @@ Pod::Spec.new do |s|
 PinAuto 根据主要的使用场景,极大的简化了, AutoLayout 中约束的创建. 同时也保留了 AutoLayout的强大的灵活性
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/PinAuto"
+  s.homepage         = "https://github.com/banxi1988/PinAuto"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "banxi1988" => "banxi1988@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/PinAuto.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/banxi1988/PinAuto.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
