@@ -3,16 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3EA86D911C4BAA6900E91074 /* PinAutoTestBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA86D831C4BA9B700E91074 /* PinAutoTestBase.swift */; };
+		3EA86D921C4BAA6B00E91074 /* XCTestCase+LayoutAssert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA86D841C4BA9B700E91074 /* XCTestCase+LayoutAssert.swift */; };
+		3EA86D931C4BAA6F00E91074 /* XCTTestCase+LayoutHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA86D851C4BA9B700E91074 /* XCTTestCase+LayoutHelper.swift */; };
+		3EA86D941C4BAA7100E91074 /* PinAutoCenteringTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA86D861C4BA9B700E91074 /* PinAutoCenteringTest.swift */; };
+		3EA86D951C4BAA7300E91074 /* PinAutoPinEdgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA86D871C4BA9B700E91074 /* PinAutoPinEdgeTests.swift */; };
+		3EA86D961C4BAA7600E91074 /* PinAutoSiblingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA86D881C4BA9B700E91074 /* PinAutoSiblingTests.swift */; };
+		3EA86D971C4BAA7900E91074 /* PinAutoSizeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA86D891C4BA9B700E91074 /* PinAutoSizeTests.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		6F58D428B0CC14912E48F5EA /* Pods_PinAuto_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8053B0C9BAC697F26683A176 /* Pods_PinAuto_Example.framework */; };
 		EA365C3D8C136C51E6EC81E7 /* Pods_PinAuto_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD12433FF8F924DB5A3CEC51 /* Pods_PinAuto_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -31,6 +37,13 @@
 		04CF1CD3C32808DE109B8DD5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		09EB6264F2028D76496B5437 /* Pods-PinAuto_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PinAuto_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PinAuto_Tests/Pods-PinAuto_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		18946423D613578019863D9A /* Pods-PinAuto_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PinAuto_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PinAuto_Tests/Pods-PinAuto_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3EA86D831C4BA9B700E91074 /* PinAutoTestBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinAutoTestBase.swift; sourceTree = "<group>"; };
+		3EA86D841C4BA9B700E91074 /* XCTestCase+LayoutAssert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCTestCase+LayoutAssert.swift"; sourceTree = "<group>"; };
+		3EA86D851C4BA9B700E91074 /* XCTTestCase+LayoutHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCTTestCase+LayoutHelper.swift"; sourceTree = "<group>"; };
+		3EA86D861C4BA9B700E91074 /* PinAutoCenteringTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinAutoCenteringTest.swift; sourceTree = "<group>"; };
+		3EA86D871C4BA9B700E91074 /* PinAutoPinEdgeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinAutoPinEdgeTests.swift; sourceTree = "<group>"; };
+		3EA86D881C4BA9B700E91074 /* PinAutoSiblingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinAutoSiblingTests.swift; sourceTree = "<group>"; };
+		3EA86D891C4BA9B700E91074 /* PinAutoSizeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinAutoSizeTests.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* PinAuto_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinAuto_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,7 +53,6 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* PinAuto_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinAuto_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		8053B0C9BAC697F26683A176 /* Pods_PinAuto_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PinAuto_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A676CB6D33BC313823792B69 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CAD36A4670CC186F373A5D45 /* PinAuto.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PinAuto.podspec; path = ../PinAuto.podspec; sourceTree = "<group>"; };
@@ -124,7 +136,13 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				3EA86D831C4BA9B700E91074 /* PinAutoTestBase.swift */,
+				3EA86D841C4BA9B700E91074 /* XCTestCase+LayoutAssert.swift */,
+				3EA86D851C4BA9B700E91074 /* XCTTestCase+LayoutHelper.swift */,
+				3EA86D861C4BA9B700E91074 /* PinAutoCenteringTest.swift */,
+				3EA86D871C4BA9B700E91074 /* PinAutoPinEdgeTests.swift */,
+				3EA86D881C4BA9B700E91074 /* PinAutoSiblingTests.swift */,
+				3EA86D891C4BA9B700E91074 /* PinAutoSizeTests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -223,7 +241,7 @@
 				};
 			};
 			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "PinAuto" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -368,7 +386,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				3EA86D941C4BAA7100E91074 /* PinAutoCenteringTest.swift in Sources */,
+				3EA86D921C4BAA6B00E91074 /* XCTestCase+LayoutAssert.swift in Sources */,
+				3EA86D911C4BAA6900E91074 /* PinAutoTestBase.swift in Sources */,
+				3EA86D931C4BAA6F00E91074 /* XCTTestCase+LayoutHelper.swift in Sources */,
+				3EA86D951C4BAA7300E91074 /* PinAutoPinEdgeTests.swift in Sources */,
+				3EA86D961C4BAA7600E91074 /* PinAutoSiblingTests.swift in Sources */,
+				3EA86D971C4BAA7900E91074 /* PinAutoSizeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,7 +463,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -477,7 +501,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;

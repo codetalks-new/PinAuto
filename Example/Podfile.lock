@@ -1,0 +1,14 @@
+PODS:
+  - PinAuto (0.1.0)
+
+DEPENDENCIES:
+  - PinAuto (from `../`)
+
+EXTERNAL SOURCES:
+  PinAuto:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PinAuto: c312681417f386a1a8b2fa2c3c4ec09e7ca8247b
+
+COCOAPODS: 0.39.0

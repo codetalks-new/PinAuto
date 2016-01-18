@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06D6EF79241BECC0F2D90F7111E8AD7F /* PinAuto-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC94C68E4D3F3186934535F7D45F7C0 /* PinAuto-dummy.m */; };
+		14F62CA45F1DDC5EF16E9F2B96F65E20 /* PinAuto-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 612832286C8EC8807B3D38ECAAC797A6 /* PinAuto-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B682E0C18B02839C5CBE2B1800BD334 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		3EA86D801C4BA91000E91074 /* UIView+PinAuto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA86D7F1C4BA91000E91074 /* UIView+PinAuto.swift */; };
+		3EA86D821C4BA95D00E91074 /* UIView+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA86D811C4BA95D00E91074 /* UIView+Helper.swift */; };
+		6579DCC078D0DC94FFEB49C77EBEE46B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		81BE7608B12E6AAF79DC5439409F4AE2 /* Pods-PinAuto_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5067EA7FABD541A19C90DB84187296 /* Pods-PinAuto_Example-dummy.m */; };
+		8BBF33FB56E21C064D6A9B21D2244A94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		9BA79745C67E08A933312530EE1CA2B6 /* Pods-PinAuto_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BA4AEDF202DD13AD75D771AD467E5D /* Pods-PinAuto_Tests-dummy.m */; };
+		9DEB42F15C2ED811C66E08EE8D9AC506 /* PinAuto.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E91A8B0420713EAA938C2675816E4FAF /* PinAuto.bundle */; };
+		B3C275C3A4D79BBB128F6BD9CB048414 /* Pods-PinAuto_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A7F39C78ED8F0A9E7AE3B93C806D443 /* Pods-PinAuto_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2794B722B163477FA34400BD2D4F15A /* Pods-PinAuto_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9CD145EB75A34C609C5BBC66584BDC /* Pods-PinAuto_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16746C351505A1BE0C8869B7D884DD20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A632AFA388C2315AFD00356F96A440CC;
+			remoteInfo = PinAuto;
+		};
+		71A81FD5C83D0668116F5B1C1F688C09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66ABBF4982A621F0EACD9FA932B724AA;
+			remoteInfo = "PinAuto-PinAuto";
+		};
+		F963C2037F606F3743351CFBB16D1606 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A632AFA388C2315AFD00356F96A440CC;
+			remoteInfo = PinAuto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CDE4CABF826E8EF36CF3E240238981C /* Pods-PinAuto_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PinAuto_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1A7F39C78ED8F0A9E7AE3B93C806D443 /* Pods-PinAuto_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PinAuto_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1ECE90B1396D05D3B8439D6DDCE8E928 /* Pods-PinAuto_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PinAuto_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		236DA3F3398C96D29B888051304BA154 /* Pods-PinAuto_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PinAuto_Example-resources.sh"; sourceTree = "<group>"; };
+		311958E049EFF269A490D36FDC7394F7 /* Pods-PinAuto_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PinAuto_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3228037A6AB77248100CA66EFE566ECC /* Pods-PinAuto_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PinAuto_Example.modulemap"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3EA86D7F1C4BA91000E91074 /* UIView+PinAuto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+PinAuto.swift"; sourceTree = "<group>"; };
+		3EA86D811C4BA95D00E91074 /* UIView+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Helper.swift"; sourceTree = "<group>"; };
+		40C063415C61DFF0E73340AD220A3DDC /* Pods-PinAuto_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PinAuto_Tests.modulemap"; sourceTree = "<group>"; };
+		4176F39770B7F58D605DE08EDBEAD866 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45C7E16FCDDE559A6FF80445DE257341 /* Pods-PinAuto_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PinAuto_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		48A50AA673D97510F5918441B51854A1 /* Pods-PinAuto_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PinAuto_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4C67640886DEABA6FC20531F62EB0A5E /* Pods-PinAuto_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PinAuto_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5B68E6EF6C4810F8991AC276FA5AAADD /* Pods_PinAuto_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PinAuto_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		612832286C8EC8807B3D38ECAAC797A6 /* PinAuto-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PinAuto-umbrella.h"; sourceTree = "<group>"; };
+		7A4C65AD7208E7D37D15F8CD76AD0C89 /* Pods-PinAuto_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PinAuto_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		88B2BAB114E391AB435D72D3741C5352 /* Pods-PinAuto_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PinAuto_Tests-resources.sh"; sourceTree = "<group>"; };
+		89350DDCE11C04E8BAD8644421CDBD06 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9669B19F2288DF31C294D3533D004EE4 /* Pods_PinAuto_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PinAuto_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AA7DE1D8F469678EDC99818AEF404AA /* PinAuto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PinAuto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EC94C68E4D3F3186934535F7D45F7C0 /* PinAuto-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PinAuto-dummy.m"; sourceTree = "<group>"; };
+		A525DFF0115AD2AFC96148FFC4024481 /* PinAuto.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PinAuto.modulemap; sourceTree = "<group>"; };
+		A8BAD34B64FA3F7F42D4F4806BED809F /* PinAuto.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PinAuto.xcconfig; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB5067EA7FABD541A19C90DB84187296 /* Pods-PinAuto_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PinAuto_Example-dummy.m"; sourceTree = "<group>"; };
+		C5CFCDDD43F6EC1D338D1ABC286250EA /* Pods-PinAuto_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PinAuto_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CB9CD145EB75A34C609C5BBC66584BDC /* Pods-PinAuto_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PinAuto_Example-umbrella.h"; sourceTree = "<group>"; };
+		D450990C15FD6F3923F49FFC4188E938 /* Pods-PinAuto_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PinAuto_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D5D4613AF3BBE43F65ABE01F676F2C88 /* Pods-PinAuto_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PinAuto_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D8BA4AEDF202DD13AD75D771AD467E5D /* Pods-PinAuto_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PinAuto_Tests-dummy.m"; sourceTree = "<group>"; };
+		E91A8B0420713EAA938C2675816E4FAF /* PinAuto.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinAuto.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA94CF5CEB16E13219EFBEDD01AEE592 /* PinAuto-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PinAuto-prefix.pch"; sourceTree = "<group>"; };
+		F8259A32F27141BCCBE77E3BC1467ED9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4ED343C940D93F3564824B4D03D3180E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5000E7B82FFE2E88A9D85C28A37AD0EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BBF33FB56E21C064D6A9B21D2244A94 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5504D0CD457DF174B7A18A750E34F86C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B682E0C18B02839C5CBE2B1800BD334 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD409ED57066CB7B48D649834F158A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6579DCC078D0DC94FFEB49C77EBEE46B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		019927B23A781B30F7834FDF2143B259 /* Pods-PinAuto_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				89350DDCE11C04E8BAD8644421CDBD06 /* Info.plist */,
+				40C063415C61DFF0E73340AD220A3DDC /* Pods-PinAuto_Tests.modulemap */,
+				D5D4613AF3BBE43F65ABE01F676F2C88 /* Pods-PinAuto_Tests-acknowledgements.markdown */,
+				1ECE90B1396D05D3B8439D6DDCE8E928 /* Pods-PinAuto_Tests-acknowledgements.plist */,
+				D8BA4AEDF202DD13AD75D771AD467E5D /* Pods-PinAuto_Tests-dummy.m */,
+				45C7E16FCDDE559A6FF80445DE257341 /* Pods-PinAuto_Tests-frameworks.sh */,
+				88B2BAB114E391AB435D72D3741C5352 /* Pods-PinAuto_Tests-resources.sh */,
+				1A7F39C78ED8F0A9E7AE3B93C806D443 /* Pods-PinAuto_Tests-umbrella.h */,
+				D450990C15FD6F3923F49FFC4188E938 /* Pods-PinAuto_Tests.debug.xcconfig */,
+				4C67640886DEABA6FC20531F62EB0A5E /* Pods-PinAuto_Tests.release.xcconfig */,
+			);
+			name = "Pods-PinAuto_Tests";
+			path = "Target Support Files/Pods-PinAuto_Tests";
+			sourceTree = "<group>";
+		};
+		38492178D023A95FDE9914706B231F7E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D23198C798517D832FBCFC620CA49AC0 /* Pods-PinAuto_Example */,
+				019927B23A781B30F7834FDF2143B259 /* Pods-PinAuto_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3FA7C92EF8EDF7F447AFAD2F3531E849 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3EA86D7F1C4BA91000E91074 /* UIView+PinAuto.swift */,
+				3EA86D811C4BA95D00E91074 /* UIView+Helper.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		49CA47B35977CFCC5574308B870F4EAD /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3FA7C92EF8EDF7F447AFAD2F3531E849 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				D6B68B5342C331036E40C8A5DBA5B268 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F97954966642EB2B2CCB5993A2DA5A0B /* Products */,
+				38492178D023A95FDE9914706B231F7E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8030EAF2080EBF66065B9F2CDFB81A52 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4176F39770B7F58D605DE08EDBEAD866 /* Info.plist */,
+				A525DFF0115AD2AFC96148FFC4024481 /* PinAuto.modulemap */,
+				A8BAD34B64FA3F7F42D4F4806BED809F /* PinAuto.xcconfig */,
+				9EC94C68E4D3F3186934535F7D45F7C0 /* PinAuto-dummy.m */,
+				EA94CF5CEB16E13219EFBEDD01AEE592 /* PinAuto-prefix.pch */,
+				612832286C8EC8807B3D38ECAAC797A6 /* PinAuto-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PinAuto";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C6F0C0E2964275920D45DB95D3FA2343 /* PinAuto */ = {
+			isa = PBXGroup;
+			children = (
+				49CA47B35977CFCC5574308B870F4EAD /* Pod */,
+				8030EAF2080EBF66065B9F2CDFB81A52 /* Support Files */,
+			);
+			name = PinAuto;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D23198C798517D832FBCFC620CA49AC0 /* Pods-PinAuto_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F8259A32F27141BCCBE77E3BC1467ED9 /* Info.plist */,
+				3228037A6AB77248100CA66EFE566ECC /* Pods-PinAuto_Example.modulemap */,
+				48A50AA673D97510F5918441B51854A1 /* Pods-PinAuto_Example-acknowledgements.markdown */,
+				7A4C65AD7208E7D37D15F8CD76AD0C89 /* Pods-PinAuto_Example-acknowledgements.plist */,
+				BB5067EA7FABD541A19C90DB84187296 /* Pods-PinAuto_Example-dummy.m */,
+				311958E049EFF269A490D36FDC7394F7 /* Pods-PinAuto_Example-frameworks.sh */,
+				236DA3F3398C96D29B888051304BA154 /* Pods-PinAuto_Example-resources.sh */,
+				CB9CD145EB75A34C609C5BBC66584BDC /* Pods-PinAuto_Example-umbrella.h */,
+				C5CFCDDD43F6EC1D338D1ABC286250EA /* Pods-PinAuto_Example.debug.xcconfig */,
+				0CDE4CABF826E8EF36CF3E240238981C /* Pods-PinAuto_Example.release.xcconfig */,
+			);
+			name = "Pods-PinAuto_Example";
+			path = "Target Support Files/Pods-PinAuto_Example";
+			sourceTree = "<group>";
+		};
+		D6B68B5342C331036E40C8A5DBA5B268 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6F0C0E2964275920D45DB95D3FA2343 /* PinAuto */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F97954966642EB2B2CCB5993A2DA5A0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E91A8B0420713EAA938C2675816E4FAF /* PinAuto.bundle */,
+				9AA7DE1D8F469678EDC99818AEF404AA /* PinAuto.framework */,
+				5B68E6EF6C4810F8991AC276FA5AAADD /* Pods_PinAuto_Example.framework */,
+				9669B19F2288DF31C294D3533D004EE4 /* Pods_PinAuto_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		084F919D4B13674D664969F1F99F71EC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F62CA45F1DDC5EF16E9F2B96F65E20 /* PinAuto-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F212100E6B93DF295D5EC8EB4580CD7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2794B722B163477FA34400BD2D4F15A /* Pods-PinAuto_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C606416348788322B9A834989239EA56 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C275C3A4D79BBB128F6BD9CB048414 /* Pods-PinAuto_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		66ABBF4982A621F0EACD9FA932B724AA /* PinAuto-PinAuto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99CB59F28EC119AFD8B3630A7BE857C9 /* Build configuration list for PBXNativeTarget "PinAuto-PinAuto" */;
+			buildPhases = (
+				744BE75B1C32515B8AC1180DCB09ABB7 /* Sources */,
+				4ED343C940D93F3564824B4D03D3180E /* Frameworks */,
+				DE0AEA4A8AD7D2BEB32ECC1B56461ED4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PinAuto-PinAuto";
+			productName = "PinAuto-PinAuto";
+			productReference = E91A8B0420713EAA938C2675816E4FAF /* PinAuto.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		A632AFA388C2315AFD00356F96A440CC /* PinAuto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E94CE13D4619B5E220E1DB039619B020 /* Build configuration list for PBXNativeTarget "PinAuto" */;
+			buildPhases = (
+				B6351A9AE58FCE7057CE18583CA00334 /* Sources */,
+				EFD409ED57066CB7B48D649834F158A3 /* Frameworks */,
+				A4E40233635774029B234FD8A2F29CB4 /* Resources */,
+				084F919D4B13674D664969F1F99F71EC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0F92AC2E1E4ADDDD2DE834619996AA6 /* PBXTargetDependency */,
+			);
+			name = PinAuto;
+			productName = PinAuto;
+			productReference = 9AA7DE1D8F469678EDC99818AEF404AA /* PinAuto.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CE8FF56372B2AE525D8CF73EB7BE1114 /* Pods-PinAuto_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35A2233CA9A51BF7F2C1194C46242EBA /* Build configuration list for PBXNativeTarget "Pods-PinAuto_Tests" */;
+			buildPhases = (
+				62C0F0F7FF9498057D931042760C88DD /* Sources */,
+				5504D0CD457DF174B7A18A750E34F86C /* Frameworks */,
+				C606416348788322B9A834989239EA56 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C520BC544E1DD72B5931F4B6D17C7BAE /* PBXTargetDependency */,
+			);
+			name = "Pods-PinAuto_Tests";
+			productName = "Pods-PinAuto_Tests";
+			productReference = 9669B19F2288DF31C294D3533D004EE4 /* Pods_PinAuto_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F228D814CD5550BB32A49ABF2FFB384A /* Pods-PinAuto_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 721B6705BAF42C8A0C431F02EADCF0CE /* Build configuration list for PBXNativeTarget "Pods-PinAuto_Example" */;
+			buildPhases = (
+				242E77AC7C4421200455457480594817 /* Sources */,
+				5000E7B82FFE2E88A9D85C28A37AD0EC /* Frameworks */,
+				4F212100E6B93DF295D5EC8EB4580CD7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03D72BD85B6AAEC611367DCFA6D27660 /* PBXTargetDependency */,
+			);
+			name = "Pods-PinAuto_Example";
+			productName = "Pods-PinAuto_Example";
+			productReference = 5B68E6EF6C4810F8991AC276FA5AAADD /* Pods_PinAuto_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F97954966642EB2B2CCB5993A2DA5A0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A632AFA388C2315AFD00356F96A440CC /* PinAuto */,
+				66ABBF4982A621F0EACD9FA932B724AA /* PinAuto-PinAuto */,
+				F228D814CD5550BB32A49ABF2FFB384A /* Pods-PinAuto_Example */,
+				CE8FF56372B2AE525D8CF73EB7BE1114 /* Pods-PinAuto_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4E40233635774029B234FD8A2F29CB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DEB42F15C2ED811C66E08EE8D9AC506 /* PinAuto.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0AEA4A8AD7D2BEB32ECC1B56461ED4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		242E77AC7C4421200455457480594817 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81BE7608B12E6AAF79DC5439409F4AE2 /* Pods-PinAuto_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62C0F0F7FF9498057D931042760C88DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA79745C67E08A933312530EE1CA2B6 /* Pods-PinAuto_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		744BE75B1C32515B8AC1180DCB09ABB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6351A9AE58FCE7057CE18583CA00334 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06D6EF79241BECC0F2D90F7111E8AD7F /* PinAuto-dummy.m in Sources */,
+				3EA86D821C4BA95D00E91074 /* UIView+Helper.swift in Sources */,
+				3EA86D801C4BA91000E91074 /* UIView+PinAuto.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03D72BD85B6AAEC611367DCFA6D27660 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PinAuto;
+			target = A632AFA388C2315AFD00356F96A440CC /* PinAuto */;
+			targetProxy = 16746C351505A1BE0C8869B7D884DD20 /* PBXContainerItemProxy */;
+		};
+		C0F92AC2E1E4ADDDD2DE834619996AA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PinAuto-PinAuto";
+			target = 66ABBF4982A621F0EACD9FA932B724AA /* PinAuto-PinAuto */;
+			targetProxy = 71A81FD5C83D0668116F5B1C1F688C09 /* PBXContainerItemProxy */;
+		};
+		C520BC544E1DD72B5931F4B6D17C7BAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PinAuto;
+			target = A632AFA388C2315AFD00356F96A440CC /* PinAuto */;
+			targetProxy = F963C2037F606F3743351CFBB16D1606 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A354BC519BD2521B566914E7F5CD238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8BAD34B64FA3F7F42D4F4806BED809F /* PinAuto.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PinAuto/PinAuto-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PinAuto/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PinAuto/PinAuto.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PinAuto;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3C62F9ED7363EA82764ECDC63DA9D871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CDE4CABF826E8EF36CF3E240238981C /* Pods-PinAuto_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PinAuto_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PinAuto_Example/Pods-PinAuto_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PinAuto_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5BCF245396DFCEC7727EFC59188E9D3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8BAD34B64FA3F7F42D4F4806BED809F /* PinAuto.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PinAuto;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		5E6FC889A786DC3DEA637BF6F3529C9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D450990C15FD6F3923F49FFC4188E938 /* Pods-PinAuto_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PinAuto_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PinAuto_Tests/Pods-PinAuto_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PinAuto_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8865789C951C2DECDDAAB7B655ADAB48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C67640886DEABA6FC20531F62EB0A5E /* Pods-PinAuto_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PinAuto_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PinAuto_Tests/Pods-PinAuto_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PinAuto_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8BEAF2CF250AAB092A4E23BDFEEA6FE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8BAD34B64FA3F7F42D4F4806BED809F /* PinAuto.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PinAuto;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		909C6B24F437966229E8971C6237F3C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8BAD34B64FA3F7F42D4F4806BED809F /* PinAuto.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PinAuto/PinAuto-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PinAuto/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PinAuto/PinAuto.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PinAuto;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E2A3B6D77897A943809C121EFF5862A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5CFCDDD43F6EC1D338D1ABC286250EA /* Pods-PinAuto_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PinAuto_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PinAuto_Example/Pods-PinAuto_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PinAuto_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35A2233CA9A51BF7F2C1194C46242EBA /* Build configuration list for PBXNativeTarget "Pods-PinAuto_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E6FC889A786DC3DEA637BF6F3529C9C /* Debug */,
+				8865789C951C2DECDDAAB7B655ADAB48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		721B6705BAF42C8A0C431F02EADCF0CE /* Build configuration list for PBXNativeTarget "Pods-PinAuto_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2A3B6D77897A943809C121EFF5862A9 /* Debug */,
+				3C62F9ED7363EA82764ECDC63DA9D871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99CB59F28EC119AFD8B3630A7BE857C9 /* Build configuration list for PBXNativeTarget "PinAuto-PinAuto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BCF245396DFCEC7727EFC59188E9D3A /* Debug */,
+				8BEAF2CF250AAB092A4E23BDFEEA6FE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E94CE13D4619B5E220E1DB039619B020 /* Build configuration list for PBXNativeTarget "PinAuto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				909C6B24F437966229E8971C6237F3C7 /* Debug */,
+				2A354BC519BD2521B566914E7F5CD238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
