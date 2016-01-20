@@ -12,6 +12,7 @@
 		3B682E0C18B02839C5CBE2B1800BD334 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		3EA86D801C4BA91000E91074 /* UIView+PinAuto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA86D7F1C4BA91000E91074 /* UIView+PinAuto.swift */; };
 		3EA86D821C4BA95D00E91074 /* UIView+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA86D811C4BA95D00E91074 /* UIView+Helper.swift */; };
+		3EBF5F441C4F5667006F7216 /* UIView+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBF5F421C4F48B3006F7216 /* UIView+Convenience.swift */; };
 		6579DCC078D0DC94FFEB49C77EBEE46B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		81BE7608B12E6AAF79DC5439409F4AE2 /* Pods-PinAuto_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5067EA7FABD541A19C90DB84187296 /* Pods-PinAuto_Example-dummy.m */; };
 		8BBF33FB56E21C064D6A9B21D2244A94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
@@ -55,6 +56,7 @@
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3EA86D7F1C4BA91000E91074 /* UIView+PinAuto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+PinAuto.swift"; sourceTree = "<group>"; };
 		3EA86D811C4BA95D00E91074 /* UIView+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Helper.swift"; sourceTree = "<group>"; };
+		3EBF5F421C4F48B3006F7216 /* UIView+Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Convenience.swift"; sourceTree = "<group>"; };
 		40C063415C61DFF0E73340AD220A3DDC /* Pods-PinAuto_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PinAuto_Tests.modulemap"; sourceTree = "<group>"; };
 		4176F39770B7F58D605DE08EDBEAD866 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45C7E16FCDDE559A6FF80445DE257341 /* Pods-PinAuto_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PinAuto_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 			children = (
 				3EA86D7F1C4BA91000E91074 /* UIView+PinAuto.swift */,
 				3EA86D811C4BA95D00E91074 /* UIView+Helper.swift */,
+				3EBF5F421C4F48B3006F7216 /* UIView+Convenience.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -426,6 +429,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EBF5F441C4F5667006F7216 /* UIView+Convenience.swift in Sources */,
 				06D6EF79241BECC0F2D90F7111E8AD7F /* PinAuto-dummy.m in Sources */,
 				3EA86D821C4BA95D00E91074 /* UIView+Helper.swift in Sources */,
 				3EA86D801C4BA91000E91074 /* UIView+PinAuto.swift in Sources */,

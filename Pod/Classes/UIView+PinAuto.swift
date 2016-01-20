@@ -8,6 +8,7 @@
 
 import UIKit
 
+// PinAuto Chian Style Method Value Container
 public class LayoutConstraintParams{
   public var priority:UILayoutPriority = UILayoutPriorityRequired
   public var relation: NSLayoutRelation = NSLayoutRelation.Equal
@@ -26,14 +27,6 @@ public class LayoutConstraintParams{
     }
     return false
   }
- 
-//  private let attributesOfOffsetOpposite: [NSLayoutAttribute] = [.Leading,.LeadingMargin,.Left,.LeftMargin,.Top,.TopMargin]
-//  private var shouldFlipOffsetValue:Bool{
-//    if firstItemAttribute == secondItemAttribute{
-//      
-//    }
-//    return false
-//  }
   
   public init(firstItem:UIView){
     self.firstItem = firstItem
@@ -244,6 +237,7 @@ public class LayoutConstraintParams{
   
 }
 
+// PinAuto Core Method
 public extension UIView{
   
   private var pa_makeConstraint:LayoutConstraintParams{
