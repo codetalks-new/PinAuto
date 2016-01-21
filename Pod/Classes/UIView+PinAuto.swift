@@ -83,6 +83,11 @@ public class LayoutConstraintParams{
     return self
   }
   
+  public var withEqRelation:LayoutConstraintParams{
+    self.relation =  .Equal
+    return self
+  }
+  
   @warn_unused_result
   public func to(value:CGFloat) -> LayoutConstraintParams{
     constant = value
@@ -147,6 +152,14 @@ public class LayoutConstraintParams{
   }
  
   @warn_unused_result
+  public func eqTo(item:UIView) -> LayoutConstraintParams{
+    secondItem = item
+    relation = .Equal
+    secondItemAttribute = firstItemAttribute
+    return self
+  }
+  
+  @warn_unused_result
   public func offset(value:CGFloat) -> LayoutConstraintParams{
     constant = value
     return self
@@ -163,7 +176,7 @@ public class LayoutConstraintParams{
   
   
   @warn_unused_result
-  public func gte(item:UIView) -> LayoutConstraintParams{
+  public func gteTo(item:UIView) -> LayoutConstraintParams{
     secondItem = item
     relation = .GreaterThanOrEqual
     secondItemAttribute = firstItemAttribute
@@ -262,7 +275,7 @@ public extension UIView{
   }
  
   @warn_unused_result
-  public func pa_aspectRatio(ratio:CGFloat) -> LayoutConstraintParams{
+  public func pac_aspectRatio(ratio:CGFloat) -> LayoutConstraintParams{
     let pa = pa_makeConstraint
     pa.firstItemAttribute = .Height
     pa.secondItemAttribute = .Width
