@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "PinAuto"
-  s.version          = "1.1.0"
+  s.version          = "1.1.1"
   s.summary          = "PinAuto 为在 iOS 开发中使用 AutoLayout 提供了方便的写法."
 
 # This description is used to generate tags and improve search results.
