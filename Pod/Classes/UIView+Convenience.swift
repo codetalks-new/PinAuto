@@ -21,9 +21,10 @@ public extension UIView{
       pa_height.eq(height).install()
   }
   
+  
   public func pac_size(width:CGFloat,aspectRatio:CGFloat = 1){
     pa_width.eq(width).install()
-    pa_aspectRatio(aspectRatio).install()
+    pac_aspectRatio(aspectRatio).install()
   }
   
   public func pac_edge(edgeInsets:UIEdgeInsets = UIEdgeInsetsZero){
