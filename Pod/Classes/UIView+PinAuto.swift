@@ -274,17 +274,6 @@ public extension UIView{
     return pa
   }
  
-  @warn_unused_result
-  @available(*,deprecated=1.2, renamed="pa_aspectRatio", message="better used pa_aspectRatio")
-  public func pac_aspectRatio(ratio:CGFloat) -> LayoutConstraintParams{
-    let pa = pa_makeConstraint
-    pa.firstItemAttribute = .Height
-    pa.secondItemAttribute = .Width
-    pa.secondItem = self
-    pa.multiplier = ratio // height = width * ratio
-    // ratio = width:height
-    return pa
-  }
   
   @warn_unused_result
   @available(*,introduced=1.2)
