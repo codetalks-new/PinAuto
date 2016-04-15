@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'FE0C2E73F062EC0D80C20AD3'
+               BlueprintIdentifier = 'A806AFE7C7BEC17B4FC9C0EB5376BE4D'
                BlueprintName = 'PinAuto'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'PinAuto.framework'>

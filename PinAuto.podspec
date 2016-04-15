@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "PinAuto"
-  s.version          = "1.5"
+  s.version          = "1.6"
   s.summary          = "PinAuto 为在 iOS 开发中使用 AutoLayout 提供了方便的写法."
 
 # This description is used to generate tags and improve search results.
@@ -30,10 +30,6 @@ PinAuto 根据主要的使用场景,极大的简化了, AutoLayout 中约束的�
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'PinAuto' => ['Pod/Assets/*.png']
-  }
-
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
