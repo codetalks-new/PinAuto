@@ -90,6 +90,14 @@ public class LayoutConstraintParams{
     return self
   }
   
+  
+  @warn_unused_result
+  public func multiplyBy(multiplier:CGFloat) -> LayoutConstraintParams{
+    self.multiplier = multiplier
+    return self
+  }
+  
+  
   @warn_unused_result
   public func to(value:CGFloat) -> LayoutConstraintParams{
     constant = value
