@@ -62,7 +62,7 @@ class ViewController: UIViewController {
     self.view.addSubview(label)
     label.text = "5:pa_below(label4,offset:16), pa_width.eq(240),pa_aspectRatio(0.5),pa.centerX"
     label.numberOfLines = 0
-    label.textAlignment = .Center
+    label.textAlignment = .center
     
     label.pa_below(self.label4,offset:16).install()
     label.pa_width.eq(240).install()
@@ -76,7 +76,7 @@ class ViewController: UIViewController {
     self.view.addSubview(label)
     label.text = "6:pa_above(bottomLayoutGuide)\npa_width.eq(120)\npa_leading.eq(15)"
     label.numberOfLines = 0
-    label.textAlignment = .Left
+    label.textAlignment = .left
     
     label.pa_above(self.bottomLayoutGuide, offset: 30).install()
     label.pa_width.eq(120).install()
@@ -89,7 +89,7 @@ class ViewController: UIViewController {
     self.view.addSubview(label)
     label.text = "7:pa_centerY.equalTo(label6)\nlabel.pa_toRightOf(label6,offset:15)\npa_width.eq(120)\n"
     label.numberOfLines = 0
-    label.textAlignment = .Left
+    label.textAlignment = .left
     
     label.pa_centerY.equalTo(self.label6).install()
     label.pa_toRightOf(self.label6, offset: 15).install()
@@ -106,7 +106,7 @@ class ViewController: UIViewController {
     let bgColors = (1..<20).map{  CGFloat($0) * 0.02}.map{ UIColor(white: $0, alpha: 1.0) }
     
     for label in labels{
-      label.font = UIFont.systemFontOfSize(13)
+      label.font = UIFont.systemFont(ofSize: 13)
       label.textColor = UIColor(white: 1.0, alpha: 1.0)
       let index = Int(arc4random_uniform(UInt32(bgColors.count)))
       let bgColor = bgColors[index]

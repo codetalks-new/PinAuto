@@ -14,7 +14,7 @@ extension XCTestCase{
   /**
    Recursively forces the given view and its subviews to immediately do a layout pass (evaluate the constraints and update frames).
    */
-  func evaluateConstraintsForView(view:UIView) {
+  func evaluateConstraintsForView(_ view:UIView) {
     for subview in view.subviews {
       evaluateConstraintsForView(subview)
     }
