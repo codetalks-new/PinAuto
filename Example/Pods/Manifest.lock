@@ -1,5 +1,5 @@
 PODS:
-  - PinAuto (1.6)
+  - PinAuto (2.0)
 
 DEPENDENCIES:
   - PinAuto (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  PinAuto: 3fea106a06036fedf49928e65a1bced151c02f8a
+  PinAuto: c17b09abc2710d60f523f397890bca0572d489e3
 
-PODFILE CHECKSUM: e501e666f114124f5d1e3ee1f4e645f1e90d92c9
+PODFILE CHECKSUM: c5d5b04f6fb906a6c140488fa29389d21d17d4eb
 
-COCOAPODS: 1.0.0.beta.6
+COCOAPODS: 1.1.0.rc.2

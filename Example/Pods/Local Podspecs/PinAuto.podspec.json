@@ -1,6 +1,6 @@
 {
   "name": "PinAuto",
-  "version": "1.6",
+  "version": "2.0",
   "summary": "PinAuto 为在 iOS 开发中使用 AutoLayout 提供了方便的写法.",
   "description": "PinAuto 根据主要的使用场景,极大的简化了, AutoLayout 中约束的创建. 同时也保留了 AutoLayout的强大的灵活性",
   "homepage": "https://github.com/banxi1988/PinAuto",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/banxi1988/PinAuto.git",
-    "tag": "1.6"
+    "tag": "2.0"
   },
   "platforms": {
     "ios": "8.0"
